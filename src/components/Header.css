@@ -14,9 +14,25 @@ body {
 }
 
 .logo {
+ 
     font-size: 24px;
-    border-right: 1px solid #757575 ;
+
+
+    width: 92px;
     /* height: 150px; */
+}
+
+.logo:before{
+    content: "";
+    display: block;
+    height: 0.3px;
+    width: 105px;
+    /* border-radius: 0.2vw; */
+    background-color: white;
+    position: relative;
+    top: 0;
+    margin: 0 2vw;
+    transform: rotate(90deg);
 }
 
 
@@ -32,38 +48,75 @@ body {
 }
 
 .social-icons {
+   /* border-right: 1px solid #757575; */
     display: flex;
     margin-left: 15px;
 }
-
+.social-icons:after{
+    content: "";
+    display: block;
+    height: 0.3px;
+    width: 96px;
+    /* border-radius: 0.2vw; */
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 57px;
+    /* margin: 0 2vw; */
+    transform: rotate(90deg);
+}
 .social-icons a {
     margin-right: 10px;
 }
 
 .search-icon {
     margin-top: 2px;
+    margin-top: 2px;
+  
 }
+.search-icon:before{
 
+}
+.search-icon:after{
+    content: "";
+    display: block;
+    height: 0.3px;
+    width: 76px;
+    /* border-radius: 0.2vw; */
+    background-color: white;
+    position: relative;
+    top: -11px;
+    /* margin: 0 2vw; */
+    transform: rotate(90deg);
+}
 .phone-number {
     margin-left: 15px;
 }
 
 @media (max-width: 768px) {
+    .social-icons, .phone-number {
+        display: none;
+    }
+
+    /* Show the search icon on smaller screens */
+    .search-icon {
+        display: block;
+    }
+
+    /* Adjust the styles for smaller screens */
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px; /* Adjusted padding for smaller screens */
-    }
-
-    .line {
-        height: 38px;
-        margin-left:68px; /* Adjusted margin for smaller screens */
-        margin-top: -32px;
-        left: 10px; /* Adjusted left for smaller screens */
-        border: 1px solid #757575;
+        padding: 10px;
     }
 
     .menu {
         margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu a {
+        margin: 10px 0;
     }
 }
