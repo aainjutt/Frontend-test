@@ -1,0 +1,88 @@
+.wealth-container {
+    width: 100%;
+    height: 558px;
+    background: #0F0D1D;
+    padding: 49px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.text-container-2 {
+    margin: auto;
+    text-align: center;
+}
+
+.text-3 {
+    color: white;
+    font-size: 43px;
+    margin-left: 0px;
+    font-weight: bold;
+    line-height: 0.1;
+}
+
+.small {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.14399999380111694px;
+    text-align: left;
+    color: #726F84;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 96px;/* Add margin to create space between card and content below it */
+}
+
+.card {
+    width: 393px;
+    height: 287px;
+    background: #000000;
+}
+.text-4{
+    color: white;
+    font-size: 32px;
+    margin-top: 52px;
+    margin-left: 45px;
+    font-weight: bold;
+}
+.small-2{
+    color: #8F8DA0;
+    font-family: Jost;
+font-size: 12px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: -0.024000000208616257px;
+text-align: left;
+margin-left: 45px;
+}
+.img{
+    float: right;
+    margin-right: 19px;
+}
+@media only screen and (max-width: 768px) {
+    .wealth-container {
+        height: 1290px;
+        padding: 1px;
+    }
+.text-container-2{
+    margin-top: 63px;
+}
+   .text-3{
+          font-size: 18px;
+   }
+   .small{
+    font-size: 9px;
+   }
+   .card-container {
+    flex-direction: column;
+    align-items: center; /* Optional: Center cards in the column */
+}
+.card {
+    margin-bottom: 10px; 
+    width: 377px;/* Adjust the spacing between cards in the column layout */
+}
+}

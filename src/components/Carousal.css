@@ -1,0 +1,31 @@
+.carousel-container{
+    padding: 49px;
+    position: relative;
+    bottom: 0px;
+}
+.about{
+    color: white;
+    position: relative;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 4vh;
+    white-space: nowrap;
+
+    font-size: 12px;
+}
+.about:before,
+.about:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 39vw;
+    border-radius: 1.2vw;
+    background-color:#444a4b;
+    position: relative;
+    top: 0;
+    margin: 0 2vw;
+}
+/* Optional: Add some styling to the carousel container */
+
