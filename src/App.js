@@ -7,6 +7,7 @@ import Leading from './components/Leading';
 import Professional from './components/Professional';
 import BusinessCard from './components/BusinessCard';
 import Mission from './components/Mission';
+import Question from './components/Question';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Professional/>
     <BusinessCard/>
     <Mission/>
+    <Question/>
    </div>
   );
 }
