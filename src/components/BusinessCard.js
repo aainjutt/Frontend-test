@@ -10,21 +10,23 @@ function BusinessCard() {
 </div>
 <div className='carcard-container'>
 <div className='car-card'>
-    <img src={icon}  className='img-6'/>
+    <img src={icon}  className='img-11'/>
     <span className='thought'>Thought leadership</span>
-    <h2>BUSINESS <br/>GROWTH</h2>
+    <h2 className='eight'>BUSINESS <br/>GROWTH</h2>
 </div>
 <div className='car-card'>
-    <img src={icon}  className='img-6'/>
+    <img src={icon}  className='img-11'/>
     <span className='thought'>Thought leadership</span>
-    <h2>BUSINESS <br/>GROWTH</h2>
+    <h2 className='eight'>BUSINESS <br/>GROWTH</h2>
+
 </div>
 <div className='car-card'>
 
-    <img src={icon}  className='img-6'/>
+    <img src={icon}  className='img-11'/>
     
     <span className='thought'>Thought leadership</span>
-    <h2>BUSINESS <br/>GROWTH</h2>
+    <h2 className='eight'>BUSINESS <br/>GROWTH</h2>
+
     <div className='assist-card'>
    
     </div>

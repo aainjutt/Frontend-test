@@ -9,6 +9,7 @@ import BusinessCard from './components/BusinessCard';
 import Mission from './components/Mission';
 import Question from './components/Question';
 import TalkingCard from './components/TalkingCard';
+import BusinessGrowth from './components/BusinessGrowth';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Mission/>
     <Question/>
     <TalkingCard/>
+    <BusinessGrowth/>
    </div>
   );
 }

@@ -1,0 +1,235 @@
+.business-growth-container{
+    width: 100%;
+    height: 350px;
+    /* padding: 2px; */
+    /* margin-top: 53px; */
+    padding: 49px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    background: linear-gradient(0deg, #0F0D1D, #0F0D1D),
+    linear-gradient(0deg, #707070, #707070);
+    
+}
+.brain-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 92px;
+
+}
+.height{
+    height: 100px;
+    width: 100px;
+    background: #06050C;
+    
+}
+.height:after{
+    content: "";
+    display: block;
+    height: 0.3px;
+    width: 105px;
+    /* border-radius: 0.2vw; */
+    background-color: white;
+    position: relative;
+    bottom: 116px;
+    left: 124px;
+    margin: 0 2vw;
+    transform: rotate(90deg);
+}
+.img-6{
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.four{
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.012799999676644802px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-top: 33px;
+    margin-bottom: 13px;
+}
+
+.small-10{
+    font-family: Jost;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.0038399999029934406px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: -2px;
+    margin-bottom: 9px;
+}
+.growth-container{
+    display: flex;
+    /* color: #FFFFFF; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 69px;
+    z-index: 1;
+}
+
+.assistgrowth-container{
+    width: 383px;
+    height: 132px;
+    box-shadow: 0px 10px 60px 0px #00000029;
+    background-color: white;
+
+}
+.assistgrowth-container:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.five:hover{
+    color: #3C72FC;
+    cursor: pointer;
+    transition: .5s;
+
+
+
+}
+.assistgrowth-container-2{
+    width: 383px;
+    height: 132px;
+    background: #F2F4F8;
+    box-shadow: 0px 1px 10px 0px #00000029;
+
+
+}
+.seventy{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.006399999838322401px;
+    text-align: left;
+    color: #0F0D1D;
+
+
+    margin-left: 33%;
+    margin-top: 49px;
+}
+.three{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.006399999838322401px;
+    text-align: left;
+    color: #0F0D1D;
+
+    margin-left: 33%;
+    margin-top: 49px;
+}
+.five{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.006399999838322401px;
+    text-align: left;
+    color: #0F0D1D;
+
+    margin-left: 33%;
+    margin-top: 49px;
+}
+.assistgrowth-container-3{
+    width: 383px;
+    height: 132px;
+ 
+    background: #F2F4F8;
+    box-shadow: 0px 1px 10px 0px #00000029;
+
+}
+/* Responsive styles for .brain-container */
+@media screen and (max-width: 768px) {
+    .business-growth-container {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .brain-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items on smaller screens */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    .height {
+        margin-bottom: 92px;
+        height: 100px;
+        width: 100px;
+        background: #06050C;
+    }
+    .height:after {
+        content: "";
+        display: block;
+        height: 0.3px;
+        width: 105px;
+        background-color: white;
+        position: relative;
+        top: 11px;
+        left: -10px;
+        margin: 0 2vw;
+        transform: rotate(360deg);
+    }
+    .small-10 {
+        font-family: Jost;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: -0.0038399999029934406px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-left: -2px;
+        margin-bottom: 9px;
+    }
+    .four {
+        font-family: Jost;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: -0.012799999676644802px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-left: 13px;
+        margin-top: 31px;
+    }
+    .growth-container
+        {
+            padding: 20px;
+            margin-left: -16px;
+            width: 99%;
+        }
+        .assistgrowth-container{
+            width: 100%;
+        }
+    .five{
+        margin-right: 34px;
+        font-size: 13px;
+    }
+    .seventy{
+        margin-right: 34px;
+        font-size: 13px;
+    }
+    .three{
+        margin-right: 34px;
+        font-size: 13px;
+    }
+}
+
+/* Common styles for .height */
+
+
+/* Common styles for .height:after */
+
+
+/* Common styles for .img-6, .four, and .small-10 (no responsive changes) */
+.img-6 {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+

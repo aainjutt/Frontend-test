@@ -71,7 +71,8 @@
 @media only screen and (max-width: 768px) {
     .professional-container {
         padding: 20px;
-        margin-left: -20px;
+        margin-left: -12px;
+        width: 97%;
     }
 
     .advice {
@@ -79,24 +80,24 @@
     }
 
     .text-6{
-        margin-left: 20px;
-    font-size: 10px;
+        margin-left: 28px;
+        font-size: 7px;
     }
     .paragraph-7 {
         margin-left: 20px;
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .box {
-        margin-left: 2px;
+        margin-left: 6px;
         width: 20px;
         height: 26px;
-        margin-top: -56px;
+        margin-top: -53px;
     }
 
     .count {
-        margin-left: -1px;
-        font-size: 17px;
+        margin-left: 2px;
+    font-size: 17px;
     }
 
     .text-container-7 {

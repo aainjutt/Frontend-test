@@ -50,9 +50,9 @@ color: #8F8DA0;
     align-items: center;
     top: 57px;
 }
-.img-6{
-    margin-top: 204px;
-    margin-left: 28px;
+.img-11{
+    margin-left: 29px;
+    margin-top: 180px;
 }
 .thought{
     position: relative;
@@ -70,7 +70,7 @@ color: #8F8DA0;
     right: 76px;
 
 }
-h2{
+.eight{
     margin-left: 24px;
     font-family: Jost;
 font-size: 30px;
@@ -82,10 +82,10 @@ color: #FFFFFF;
 }
 .assist-card{
     width: 200px;
-    height: 181px;
+    height: 205px;
     background: #3C72FC;
     /* margin-bottom: 49px; */
-    margin-top: -201px;
+    margin-top: -204px;
 }
 @media only screen and (max-width: 768px) {
     .business-container {
