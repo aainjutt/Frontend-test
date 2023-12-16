@@ -1,6 +1,7 @@
 import React from 'react';
 import './BusinessGrowth.css'
 import brain from '../assets/brain.png'
+import BuildExperience from './BuildExperience';
 function BusinessGrowth() {
   return (
     <>
@@ -41,6 +42,7 @@ function BusinessGrowth() {
             <h4 className='three'>Business Growth</h4>
         </div>
      </div>
+     <BuildExperience/>
     </>
    
   )
