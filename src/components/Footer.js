@@ -38,7 +38,7 @@ function Footer() {
                         <p className='footer-para'>Subscribe for latest articles and resources</p>
                         <div>
                             <input type="text" class="searchTerm" placeholder="Email address" />
-                            <button class="btn btn-primary" type="submit">Button</button>
+                            <button class="btn btn-primary" type="submit">Register</button>
                         </div>
                     </div>
                 </div>
