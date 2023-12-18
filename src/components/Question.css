@@ -1,4 +1,4 @@
-.question-container{
+.question-container {
     width: 100%;
     height: 733px;
     /* padding: 2px; */
@@ -7,31 +7,35 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-.question{
+
+.question-2 {
     margin: auto;
     text-align: center;
 }
-.ans{
+
+.ans {
     font-family: Jost;
-font-size: 50px;
-font-weight: 700;
-line-height: 44px;
-letter-spacing: -0.01599999889731407px;
-text-align: center;
-color: #0F0D1D;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.01599999889731407px;
+    text-align: center;
+    color: #0F0D1D;
 
 }
-.renew{
+
+.renew {
     font-family: Jost;
-font-size: 18px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: -0.36000001430511475px;
-text-align: left;
-color:  #8F8DA0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.36000001430511475px;
+    text-align: left;
+    color: #8F8DA0;
 
 }
-.think-container{
+
+.think-container {
     margin-left: 52px;
     margin-top: 58px;
     width: 600px;
@@ -43,7 +47,8 @@ color:  #8F8DA0;
 
 
 }
-.think{
+
+.think {
     font-family: Jost;
     font-size: 17px;
     font-weight: bold;
@@ -55,7 +60,8 @@ color:  #8F8DA0;
     margin-top: -14px;
 
 }
-.one{
+
+.one {
     font-family: Jost;
     font-size: 18px;
     font-weight: 700;
@@ -68,7 +74,8 @@ color:  #8F8DA0;
     left: 8px;
 
 }
-.paragarph-7{
+
+.paragarph-7 {
     font-family: Jost;
     font-size: 16px;
     font-weight: 500;
@@ -79,32 +86,37 @@ color:  #8F8DA0;
     margin-left: 15px;
 
 }
-.minus{
+
+.minus {
     width: 15px;
-top: 5201px;
-left: 887.5px;
-width: 15px;
-top: 5201px;
-left: 887.5px;
-color: #707070;
-margin-left: 169px;
-color: #707070 ;
+    top: 5201px;
+    left: 887.5px;
+    width: 15px;
+    top: 5201px;
+    left: 887.5px;
+    color: #707070;
+    margin-left: 169px;
+    color: #707070;
 
 
 }
-.plus{
+
+.plus {
     margin-left: 206px;
     color: #3C72FC;
 }
-.plus2{
+
+.plus2 {
     margin-left: 170px;
     color: #3C72FC;
 }
-.plus3{
+
+.plus3 {
     margin-left: 226px;
     color: #3C72FC;
 }
-.consult-container{
+
+.consult-container {
     margin-left: 52px;
     margin-top: 58px;
     width: 600px;
@@ -115,14 +127,16 @@ color: #707070 ;
     background: #F2F4F8;
 
 }
-.small-container{
+
+.small-container {
     float: right;
     position: relative;
     right: 183px;
     bottom: 135px;
 }
-.elit{
-    
+
+.elit {
+
     font-family: Jost;
     font-size: 18px;
     font-weight: 400;
@@ -130,34 +144,37 @@ color: #707070 ;
     letter-spacing: -0.36000001430511475px;
     text-align: left;
     color: #726F84;
-    
+
 }
-.elit:before{
+
+.elit:before {
     content: "✓";
     position: absolute;
     left: -25px;
     color: #3C72FC;
     Width:
-20px;
-Height:
-13px;
+        20px;
+    Height:
+        13px;
     line-height: 1.8vw;
 }
-.box-2{
+
+.box-2 {
     float: right;
     position: relative;
     left: 274px;
     bottom: 129px;
 }
 
-.box-3{
+.box-3 {
     width: 167px;
-height: 132px;
-top: 5500px;
-left: 1452px;
-background-color: #3C72FC;
+    height: 132px;
+    top: 5500px;
+    left: 1452px;
+    background-color: #3C72FC;
 }
-.thirty{
+
+.thirty {
     font-family: Jost;
     font-size: 56px;
     font-weight: 700;
@@ -167,7 +184,8 @@ background-color: #3C72FC;
     color: #FFFFFF;
     margin-left: 34%;
 }
-.years{
+
+.years {
     font-family: Jost;
     font-size: 13px;
     font-weight: 700;
@@ -178,25 +196,29 @@ background-color: #3C72FC;
     position: absolute;
     left: 48px;
 }
+
 @media (max-width: 768px) {
-    .question-container{
+    .question-container {
         height: 710px;
         width: 100vw;
     }
-    .ans{
+
+    .ans {
         font-size: 31px;
-    line-height: 24px;
+        line-height: 24px;
     }
-    .renew{
+
+    .renew {
         font-size: 16px;
 
     }
+
     .think-container {
         margin-left: 0px;
         margin-top: 20px;
         width: 100%;
     }
-    
+
 
     .think {
         font-size: 15px;
@@ -206,8 +228,8 @@ background-color: #3C72FC;
 
     .one {
         font-size: 16px;
-    top: 29px;
-    left: 7px;
+        top: 29px;
+        left: 7px;
     }
 
     .paragarph-7 {
@@ -222,40 +244,43 @@ background-color: #3C72FC;
         left: 171px;
     }
 
-    .plus{
+    .plus {
         margin-left: 55px;
-    font-size: 14px;
+        font-size: 14px;
     }
-    .plus2{
+
+    .plus2 {
         margin-left: 23px;
     }
-   
-.plus3{
-    margin-left: 70px;
-}
+
+    .plus3 {
+        margin-left: 70px;
+    }
+
     .consult-container {
         margin-left: 0px;
         margin-top: 20px;
         width: 100%;
     }
 
-    .small-container
-     {
+    .small-container {
         right: 57px;
         bottom: -38px;
         font-size: 0px;
     }
-    .box-2{
+
+    .box-2 {
         right: 57px;
         bottom: -38px;
         font-size: 0px;
     }
+
     .box-3 {
         width: 100%;
-    height: 78px;
-    left: 0;
-    margin-top: 20px;
-    margin-left: 25px;
+        height: 78px;
+        left: 0;
+        margin-top: 20px;
+        margin-left: 25px;
     }
 
     .thirty {

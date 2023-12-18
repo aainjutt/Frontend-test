@@ -1,9 +1,10 @@
-.carousel-container{
+.carousel-container {
     padding: 49px;
     position: relative;
     bottom: 0px;
 }
-.about{
+
+.about {
     color: white;
     position: relative;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -15,6 +16,7 @@
 
     font-size: 12px;
 }
+
 .about:before,
 .about:after {
     content: "";
@@ -22,10 +24,68 @@
     height: 3px;
     width: 39vw;
     border-radius: 1.2vw;
-    background-color:#444a4b;
+    background-color: #444a4b;
     position: relative;
     top: 0;
     margin: 0 2vw;
 }
-/* Optional: Add some styling to the carousel container */
 
+/* Carousel Container */
+.carousel-container-2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Carousel Track */
+.carousel-track {
+    height: 134px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    height: 134px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+/* Carousel Item */
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+}
+
+/* Navigation Buttons */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Optional: Add some styling to the carousel container */
+@media screen and (max-width: 768px) {
+
+    .carousal-container-2 {
+        width: 100%;
+    }
+}
