@@ -116,17 +116,19 @@
 
 /* Media Query for smaller screens */
 @media only screen and (max-width: 768px) {
-    .buildexperience-container{
+    .buildexperience-container {
         position: relative;
         top: -41px;
         left: 40px;
         height: 621px;
     }
+
     .build-text-container {
         left: 46px;
         top: 97px;
     }
-    .build-box{
+
+    .build-box {
         margin-left: 2px;
         position: relative;
         bottom: 33px;
@@ -141,9 +143,11 @@
         margin-top: 0;
         margin-left: 0;
     }
-    .build-paragraph-2{
+
+    .build-paragraph-2 {
         font-size: 12px;
     }
+
     .build-small:before {
         content: "_";
         position: absolute;
@@ -154,6 +158,7 @@
         line-height: 1.8vw;
         margin-top: 3px;
     }
+
     .build-text-container:after {
         content: "";
         display: block;

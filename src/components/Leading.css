@@ -1,28 +1,28 @@
 .leading-container{
-    width: 100%;
-    height: 558px;
-    /* padding: 2px; */
-    /* margin-top: 53px; */
-    padding: 49px;
-    padding-left: 0px;
-    padding-right: 0px;
+  width: 100%;
+  height: 558px;
+  /* padding: 2px; */
+  /* margin-top: 53px; */
+  padding: 49px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .text-container-4{
-    position: relative;
-    float: right;
-    /* margin-right: 42px; */
-    right: 61px;
+  position: relative;
+  float: right;
+  /* margin-right: 42px; */
+  right: 61px;
 }
 .video{
-    height: 500px;
-    width: 500px;
-    /* float: left; */
-    margin-left: 35px;
-    margin-top: -62px;
+  height: 500px;
+  width: 500px;
+  /* float: left; */
+  margin-left: 35px;
+  margin-top: -62px;
 }
 
 .text-5{
-    font-family: Jost;
+  font-family: Jost;
 font-size: 50px;
 font-weight: 700;
 line-height: 60px;
@@ -32,7 +32,7 @@ color: #0F0D1D;
 
 }
 .p{
-    font-family: Jost;
+  font-family: Jost;
 font-size: 18px;
 font-weight: 500;
 line-height: 34px;
@@ -43,7 +43,7 @@ color:#726F84;
 
 }
 .paragraph-6{
- 
+
 font-family: Jost;
 font-size: 26px;
 font-weight: 400;
@@ -53,71 +53,71 @@ text-align: left;
 color: #3C72FC;
 }
 .progress-container {
-    width: 50%;
+  width: 50%;
+
+}
+
+/* Styles for the progress bar */
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Styles for the progress indicator */
+.progress-indicator {
+  Height: 12.72px;
+  background: #3C72FC;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Optional: Style for the progress text */
+.progress-text {
+  color: #000000;
+  margin-top: 10px;
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.2800000011920929px;
+  text-align: left;
   
-  }
-
-  /* Styles for the progress bar */
-  .progress-bar {
-    width: 100%;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  /* Styles for the progress indicator */
-  .progress-indicator {
-    Height: 12.72px;
-    background: #3C72FC;
-    border-radius: 5px;
-    transition: width 0.5s ease-in-out;
-  }
-
-  /* Optional: Style for the progress text */
-  .progress-text {
-    color: #000000;
-    margin-top: 10px;
-    font-family: Jost;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: -0.2800000011920929px;
-    text-align: left;
-    
-  }
-  .phone-container{
-    display: flex;
-  }
-  .phone-icon{
-    width: 37px;
-    height: 37px;
+}
+.phone-container{
+  display: flex;
+}
+.phone-icon{
+  width: 37px;
+  height: 37px;
 top: 2929.5px;
 left: 971.01px;
 background: #EBF1FF;
 margin-top: 14px;
 
 
-  }
-  .icon{
-    width: 17px;
-    margin: auto;
-    margin-left: 11px;
-    margin-top: 11px;
-    height: 19px;
-  }
-  .question{
-    font-family: Jost;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #726F84;
-    margin-left: 12px;
+}
+.icon{
+  width: 17px;
+  margin: auto;
+  margin-left: 11px;
+  margin-top: 11px;
+  height: 19px;
+}
+.question{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #726F84;
+  margin-left: 12px;
 
-  }
-  .phone{
-    font-family: Jost;
+}
+.phone{
+  font-family: Jost;
 font-size: 18px;
 font-weight: 500;
 line-height: 26px;
@@ -127,37 +127,36 @@ color: #0F0D1D;
 margin-left: 12px;
 
 
+}
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .leading-container{
+      padding: 1px;
+      margin-top: -44px;
+      margin-left: 20px;
   }
-  @media only screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    .leading-container{
-        padding: 1px;
-        margin-top: -44px;
-        margin-left: 20px;
-    }
 
-    .video {
-        width: 100%;
-        margin-left: -20px;
-        margin-top: 0;
-    }
-    .text-container-4{
-      position: relative;
-      left: -57px;
-    }
-    .p{
-        font-size: 12px;
-    line-height: 1.5;
+  .video {
+      width: 100%;
+      margin-left: -20px;
+      margin-top: 0;
+  }
+  .text-container-4{
+    position: relative;
+    left: -57px;
+  }
+  .p{
+      font-size: 12px;
+  line-height: 1.5;
 }
-    .paragraph-6{
-        font-size: 17px;
-        line-height: 27px;
-    }
-    
-    .text-5 {
-        font-size: 32px;
-        line-height: 47px; 
-    }
-    /* Add more adjustments as needed */
+  .paragraph-6{
+      font-size: 17px;
+      line-height: 27px;
+  }
+  
+  .text-5 {
+      font-size: 32px;
+      line-height: 47px; 
+  }
+  /* Add more adjustments as needed */
 }
-

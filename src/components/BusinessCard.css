@@ -1,4 +1,4 @@
-.business-container{
+.business-container {
     width: 100%;
     height: 558px;
     /* padding: 2px; */
@@ -7,13 +7,15 @@
     padding-left: 0px;
     padding-right: 0px;
     background: #F2F4F8;
-  z-index: 1;
+    z-index: 1;
 }
-.text-container-8{
+
+.text-container-8 {
     text-align: center;
     margin: auto;
 }
-.case{
+
+.case {
     font-family: Jost;
     font-size: 46px;
     font-weight: 700;
@@ -23,26 +25,29 @@
     color: #0F0D1D;
 
 }
-.clients{
+
+.clients {
     font-family: Jost;
-font-size: 18px;
-font-weight: 700;
-line-height: 0px;
-letter-spacing: -0.36000001430511475px;
-text-align: left;
-color: #8F8DA0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: -0.36000001430511475px;
+    text-align: left;
+    color: #8F8DA0;
 
 
 }
-.car-card{
+
+.car-card {
     width: 256px;
     height: 362px;
     background: #0F0D1D6B;
 
 
-   
+
 }
-.carcard-container{
+
+.carcard-container {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -50,11 +55,13 @@ color: #8F8DA0;
     align-items: center;
     top: 57px;
 }
-.img-11{
+
+.img-11 {
     margin-left: 29px;
     margin-top: 180px;
 }
-.thought{
+
+.thought {
     position: relative;
     top: 22px;
     /* position: absolute; */
@@ -70,55 +77,65 @@ color: #8F8DA0;
     right: 76px;
 
 }
-.eight{
+
+.eight {
     margin-left: 24px;
     font-family: Jost;
-font-size: 30px;
-font-weight: 700;
-line-height: 34px;
-letter-spacing: -0.6000000238418579px;
-text-align: left;
-color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    color: #FFFFFF;
 }
-.assist-card{
+
+.assist-card {
     width: 200px;
     height: 205px;
     background: #3C72FC;
     /* margin-bottom: 49px; */
     margin-top: -204px;
 }
+
 @media only screen and (max-width: 768px) {
     .business-container {
         height: 1241px;
-        padding: 20px;/* Adjust height as needed for smaller screens */
-  /* Adjust padding for smaller screens */
+        padding: 20px;
+        /* Adjust height as needed for smaller screens */
+        /* Adjust padding for smaller screens */
     }
-.thought{
-    font-size: 15px;
-    /* position: relative; */
-    left: -77px;
-    word-spacing: 1px;
-}
+
+    .thought {
+        font-size: 15px;
+        /* position: relative; */
+        left: -77px;
+        word-spacing: 1px;
+    }
+
     .text-container-8 {
         /* Adjust styles for smaller screens */
     }
-    
-        .case {
-            font-size: 28px;
-        }
-   
-        .clients {
-            line-height: 0;
-            font-size: 13px;
-        }
-    .carcard-container{
+
+    .case {
+        font-size: 28px;
+    }
+
+    .clients {
+        line-height: 0;
+        font-size: 13px;
+    }
+
+    .carcard-container {
         flex-direction: column;
     }
-    .car-card{
+
+    .car-card {
         margin-bottom: 10px;
     }
-.assist-card{
-    margin-top: -205px;
-}
+
+    .assist-card {
+        margin-top: -205px;
+    }
+
     /* Add more adjustments for other elements as needed */
 }

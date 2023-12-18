@@ -10,21 +10,23 @@ import Mission from './components/Mission';
 import Question from './components/Question';
 import TalkingCard from './components/TalkingCard';
 import BusinessGrowth from './components/BusinessGrowth';
+import Footer from './components/Footer';
 
 function App() {
   return (
-   <div>
-    <Header/>
-    <Section/>
-    <WealthmanagementCard/>
-    <Leading/>
-    <Professional/>
-    <BusinessCard/>
-    <Mission/>
-    <Question/>
-    <TalkingCard/>
-    <BusinessGrowth/>
-   </div>
+    <div>
+      <Header />
+      <Section />
+      <WealthmanagementCard />
+      <Leading />
+      <Professional />
+      <BusinessCard />
+      <Mission />
+      <Question />
+      <TalkingCard />
+      <BusinessGrowth />
+      <Footer />
+    </div>
   );
 }
 
